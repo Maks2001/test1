@@ -5,11 +5,25 @@ header{
 
 
 }
-#p{
+#service_navigation{
+    
+	background:red;
+	width: 234px;
 	
-	
-	color:white
 }
+#service_navigation a{
+
+	
+}
+
+	
+#service_number{
+	color:red;
+	
+	
+}
+	
+
 body{
     background: black;
 
@@ -21,7 +35,7 @@ body{
 	display:flex;
 	flex-direction: row;
 	justify-content:space-around;
-	   position: relative;
+	position: relative;
     z-index: 2;
 	width:70%;
 	margin-left:600px;
@@ -32,9 +46,16 @@ body{
 	text-decoration:none;
 }
 .navigation a{
-	
-	
-	background:red;
+	color:white;
+	list-style-type:none;
+	text-decoration:none;
+   
+}
+.navigation li{
+	padding-top:20px;
+	display:flex;
+	flex-direction: row;
+	justify-content:space-around;
 }
 #advertising{
 	
@@ -75,43 +96,44 @@ color:#BBBABA;
 
 #announcement{
 	position:relative;
-width: 422px;
-height: 126px;
-z-index: 2;
-font-family: Montserrat;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: normal;
-text-align: center;
-margin-left:30px;
-background-size: cover;
-color: #BBBABA;
-
-
-	
-	
-}
-#element{
-	position: absolute;
-	width: 234px;
-	height: 65.71px;
-
+	width: 422px;
+	height: 126px;
+	z-index: 2;
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: normal;
 	text-align: center;
-	z-index: 2;
+	margin-left:30px;
+	background-size: cover;
+	color: #BBBABA;
+
+
+	
+	
+}
+#element{
+	
+	width: 234px;
+	height:50px;
+	display:flex;
+	flex-direction: row;
+	justify-content:space-around;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: normal;
+	z-index:2;
 	color: #FFFFFF;
 	background: rgba(249, 53, 36, 0.95);	
 	padding: 2px;
 	margin-left:50px;
 	margin-top:-75px;
 	position: absolute;
-	width: 234px;
-	height: 67px;
+	
+	
 }
 .maks{
 	display:flex;
@@ -166,7 +188,7 @@ margin-top: 350px;
 	opacity:1;
 }
 
-#service{
+#service_text{
 	
 	position: absolute;
 width: 1367px;
